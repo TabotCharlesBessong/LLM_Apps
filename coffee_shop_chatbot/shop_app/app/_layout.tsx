@@ -4,8 +4,14 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import React from 'react';
+import '../global.css'
+import "nativewind";
 
 import { useColorScheme } from '@/hooks/useColorScheme';
+
+// NativeWindStyleSheet.setOutput({
+//   default: 'native',
+// })
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
